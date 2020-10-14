@@ -21,5 +21,13 @@ public class Medication extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button pres = findViewById(R.id.prescriptionBtn);
+        pres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Medication.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
