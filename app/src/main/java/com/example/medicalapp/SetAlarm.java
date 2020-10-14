@@ -23,7 +23,7 @@ public class SetAlarm extends AppCompatActivity {
             }
         });
         Button alarm = findViewById(R.id.setAlarmBtn);
-        home.setOnClickListener(new View.OnClickListener() {
+        alarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SetAlarm.this, "The alarm has been added", Toast.LENGTH_SHORT).show();
@@ -31,5 +31,6 @@ public class SetAlarm extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
