@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Prescription"></activity>
+        <activity android:name=".Cut"></activity>
+        <activity android:name=".Prescription" />
         <activity android:name=".SetAlarm" />
         <activity android:name=".Medication" />
         <activity android:name=".Faq" />
