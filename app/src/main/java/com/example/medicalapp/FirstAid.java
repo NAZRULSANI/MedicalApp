@@ -30,5 +30,22 @@ public class FirstAid extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button burn = findViewById(R.id.burnBtn);
+        cut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstAid.this, Burn.class);
+                startActivity(intent);
+            }
+        });
+        Button common = findViewById(R.id.commonBtn);
+        cut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstAid.this, CommonDiseases.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

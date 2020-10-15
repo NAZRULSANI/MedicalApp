@@ -29,5 +29,13 @@ public class Medication extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button cut = findViewById(R.id.setAlarmBtn1);
+        cut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Medication.this, SetAlarm.class);
+                startActivity(intent);
+            }
+        });
     }
 }

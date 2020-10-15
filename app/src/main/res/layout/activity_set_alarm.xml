@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="Set Alarm"
-        android:textColor="#040303"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
