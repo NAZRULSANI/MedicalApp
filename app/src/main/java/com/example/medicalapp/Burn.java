@@ -13,7 +13,7 @@ public class Burn extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_burn);
-        Button home = findViewById(R.id.homeBtnCut);
+        Button home = findViewById(R.id.homeBtnBurn);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
